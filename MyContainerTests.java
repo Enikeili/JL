@@ -119,7 +119,7 @@ public class MyContainerTests
      * Checking: extract_element_by_index() method with negative index
      */
     @Test
-    public void testRemoveOutOfBounds()
+    public void test_extract_element_by_negative_index()
     {
     	assertThrows(IndexOutOfBoundsException.class, () ->
     	{
